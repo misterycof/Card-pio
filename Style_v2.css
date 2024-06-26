@@ -22,14 +22,12 @@ body{
   width: 100%;
   bottom: -64px; 
   border-style:  solid;
+  border-radius: 20px;
 }
 .titulo{
   position: absolute;
   color: rgb(255, 255, 255);
   font-family: Dancing Script, serif;
-  font-size: 50px;
-  left: 0px;
-
 }
 
 .ComidaUm{
@@ -38,6 +36,9 @@ body{
   margin-top: 100px;
   margin-right: 400px;
 }
+a:hover{color: #e76eab;} 
+a:visited{color: #90EE90;}
+
 .ComidaUm h3{
   border-bottom-style: solid;
   border-bottom-width: 5px;
@@ -69,4 +70,16 @@ body{
 }
 .ComidaDOIS h4{
   margin-right: 80px;
+}
+
+
+/*Pagina do Limão*/
+
+
+
+.img-item img{
+  position:absolute;
+  width: 200px;
+  top: 100px;
+  left: 10px;
 }
